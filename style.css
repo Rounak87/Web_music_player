@@ -197,10 +197,8 @@ body {
 
 .header {
   background-color: #121212;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
+
+  
   margin: 0px;
   padding: 8px;
   padding-top: 16px;
@@ -209,7 +207,12 @@ body {
   top: 0;
   z-index: 10;
 }
-
+.headnav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .nav img {
   margin: 2px;
   cursor: pointer;
@@ -251,8 +254,9 @@ body {
 }
 
 .headcapsule {
-  margin-top: 3px;
+  margin-top: 14px;
   margin-bottom: 14px;
+
 }
 
 .headcapsule :first-child {
@@ -290,6 +294,10 @@ body {
   .playbtn {
     opacity: 100%;
   }
+}
+
+.mainbody{
+  max-height: 25vw;
 }
 
 .mainbody h1 {
